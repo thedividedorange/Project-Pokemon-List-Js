@@ -1,0 +1,34 @@
+html {
+height: 100%;
+width: 100%;
+}
+#container {
+display: flex;
+flex-direction: column;
+width: 50%;
+margin: auto;
+}
+.accordion {
+border: none;
+margin: 0.8px;
+}
+.accordion.accordionHead {
+font-size: 16px;
+font-weight: bold;
+background: #6139c2;
+border-radius: 0.5em;
+color: #ffcc70;
+padding: 0.5em;
+}
+.accordion.accordionBody{
+background: #efffe0;
+border-radius: 0.5em;
+align-items: center;
+justify-content: space-evenly;
+}
+.accordion-hide {
+display: none!important;
+}
+.accordion-show {
+display:flex!important;
+}
